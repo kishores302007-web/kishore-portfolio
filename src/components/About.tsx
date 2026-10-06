@@ -26,10 +26,14 @@ export default function About() {
           <div className="mx-auto w-full max-w-[320px] rounded-3xl border border-white/10 bg-white/[0.03] p-7">
 
             {/* Photo Placeholder */}
-            <div className="flex justify-center">
-              <div className="flex h-40 w-40 items-center justify-center rounded-full border border-cyan-400/30 bg-cyan-400/10 text-5xl font-bold text-cyan-400">
-                KS
-              </div>
+            <div className="relative h-full w-full">
+                <img
+                    src="/images/kishore-profile.png"
+                    alt="Kishore S"
+                    className="h-full w-full object-cover"
+                />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
             </div>
 
             {/* Name */}

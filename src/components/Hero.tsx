@@ -10,17 +10,17 @@ export default function Hero() {
         <div className="order-1 flex w-full justify-center lg:order-2 lg:justify-end">
           <div className="relative flex h-[360px] w-full max-w-[320px] items-center justify-center overflow-hidden rounded-[2rem] border border-white/10 bg-zinc-900/50 sm:h-[440px] sm:max-w-[360px] lg:h-[520px] lg:max-w-[420px]">
 
-            <div className="text-center">
-              <div className="mx-auto flex h-32 w-32 items-center justify-center rounded-full border border-cyan-400/30 bg-cyan-400/10 text-4xl font-semibold text-cyan-400 sm:h-40 sm:w-40 sm:text-5xl">
-                KS
-              </div>
+            <div className="relative h-full w-full">
+                <img
+                    src="/images/kishore-profile.png"
+                    alt="Kishore S"
+                    className="h-full w-full object-cover"
+                />
 
-              <p className="mt-5 text-sm text-zinc-500">
-                Your photo will go here
-              </p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
             </div>
 
-          </div>
+        </div>
         </div>
 
         {/* Content */}
